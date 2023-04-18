@@ -22,6 +22,6 @@
     "composite": true,
     "useUnknownInCatchVariables": false
   },
-  "exclude": ["lib", "node_modules"],
+  "exclude": ["lib", "node_modules", "src/stories/**"],
   "include": ["src/**/*", "types/**/*"]
 }
