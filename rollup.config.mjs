@@ -1,5 +1,5 @@
 import typescript from "rollup-plugin-typescript2";
-import packageJson from "./package.json";
+import packageJson from "./package.json" assert { type: "json" };
 import peerDepsExternal from "rollup-plugin-peer-deps-external";
 import cleaner from "rollup-plugin-cleaner";
 import resolve from "@rollup/plugin-node-resolve";
