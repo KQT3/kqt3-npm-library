@@ -2,6 +2,6 @@ import Button from '@mui/material/Button';
 
 export const ChainButton = () => {
   return (
-    <Button variant="contained">New</Button>
+    <Button variant="contained" sx={{backgroundColor: "green"}}>News</Button>
   );
 }

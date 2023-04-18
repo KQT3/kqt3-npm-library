@@ -1,18 +1,18 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import { ChainButton } from "../components";
 
-export const ChainButtonStory = () => {
-  return (
-    <ChainButton />
-  );
-};
-
 const meta: Meta = {
-  title: "Chain/ChainButtonStory",
-  component: ChainButtonStory,
-} satisfies Meta<typeof ChainButtonStory>;
+  title: "Chain/ChainButton",
+  component: ChainButton,
+} satisfies Meta<typeof ChainButton>;
 
 export default meta;
 
 type Story = StoryObj<typeof meta>;
 
+export const Primary: Story = {
+  args: {
+    primary: true,
+    label: 'Button',
+  },
+};
